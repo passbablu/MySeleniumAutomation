@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="My_Runningtest(failed)">
+    <parameter name="password" value="admin"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="seleniummainpkg.SubRegitrationTest">
+        <methods>
+          <include name="mySubRegitration"/>
+          <include name="takeScreenShotForTest"/>
+          <include name="openBrowser"/>
+          <include name="hospitalBeforMethod"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- seleniummainpkg.SubRegitrationTest -->
+      <class name="seleniummainpkg.My_login_Test">
+        <methods>
+          <include name="myRegistationTest"/>
+          <include name="takeScreenShotForTest"/>
+          <include name="settingname"/>
+          <include name="openBrowser"/>
+          <include name="hospitalBeforMethod"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- seleniummainpkg.My_login_Test -->
+    </classes>
+  </test> <!-- My_Runningtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
