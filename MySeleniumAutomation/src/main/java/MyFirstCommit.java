@@ -5,7 +5,7 @@ public static void main(String[] args) {
 		System.out.println("eid is on sunday " +i);
 	}
 			
-		
+	System.out.println("today is monday");	
 	
 }
 }
